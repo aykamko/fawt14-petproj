@@ -8,7 +8,11 @@
  *
  * Main module of the application.
  */
+
+angular.module('finalApp', ['ui.bootstrap'])
+
 angular
   .module('finalApp', [
-      'ui.bootstrap'
+    'ngResource',
+    'ngSanitize',
   ]);
